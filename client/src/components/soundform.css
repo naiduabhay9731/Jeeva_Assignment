@@ -1,0 +1,87 @@
+.form-container {
+    max-width: 500px;
+    margin: 50px auto; /* Increased margin */
+    padding: 30px;
+    border-radius: 10px;
+    background: #181818; /* Changed background color */
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  
+
+    h2{
+       color: #ffd700;
+    }
+    }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex; /* Display label and input side by side */
+    align-items: center; /* Align vertically */
+  }
+  
+  label {
+    font-weight: bold;
+    color: #ffd700;
+    flex: 1; /* Take up equal space */
+    margin-right: 10px; /* Add spacing between label and input */
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="file"] {
+    flex: 2; /* Take up more space than label */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    
+  }
+  input[type="file"]{
+    color: #ffd700;
+  }
+  .submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color:#ffd700;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background:white ;
+    color:#333;
+  }
+  .table-container {
+    margin-top: 20px;
+    color: #ffd700;
+   
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: #181818;
+   
+  }
+  
+  table th {
+    background-color: #181818;
+    color: #ffd700;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  
